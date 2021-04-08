@@ -144,13 +144,16 @@ namespace CSharpVSCode
                                         {1, 2, 3} ,   
                                         {4, 5, 6}
                                      };
-            //convert2DArray(arr);
-
-            //string str = "hello world";
-            //charOccurance(str);
-
-           // Console.WriteLine(findAngle(13, 30));
+            convert2DArray(arr);
             Console.WriteLine(" ");
+
+            string str = "hello world";
+            charOccurance(str);
+            Console.WriteLine(" ");
+
+            Console.WriteLine(findAngle(13, 30));
+            Console.WriteLine(" ");
+            
             Console.WriteLine(dblLinear(10)); 
             
         }
